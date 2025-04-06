@@ -4,7 +4,7 @@ import { BedrockChat } from '@langchain/community/chat_models/bedrock';
 export const main = async (): Promise<void> => {
     const model = new BedrockChat({
         region: 'ap-northeast-1',
-        model: 'anthropic.claude-v2:1',
+        model: 'amazon.nova-lite-v1:0',
     });
 
     const res = await model.invoke([
