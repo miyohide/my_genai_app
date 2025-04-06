@@ -17,6 +17,7 @@
     "typescript": "^5.8.3"
   },
   "dependencies": {
+    "@aws-sdk/credential-provider-node": "^3.782.0",
     "@langchain/community": "^0.3.39",
     "@langchain/core": "^0.3.43"
   }
