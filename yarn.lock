@@ -414,10 +414,10 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@langchain/community@^0.3.39":
-  version "0.3.39"
-  resolved "https://registry.yarnpkg.com/@langchain/community/-/community-0.3.39.tgz#d9f0246adc251666cf0adbd4b49316a3d94c1270"
-  integrity sha512-8sMJD22bUNlQVoh0b8PgRSpO2Hz5zO6BuZeNY3ElgW3cNVXCoywHW7FBmqbwrygGocJQDee76RqiIN0XQunhTg==
+"@langchain/community@^0.3.40":
+  version "0.3.40"
+  resolved "https://registry.yarnpkg.com/@langchain/community/-/community-0.3.40.tgz#63cfe3d404c4dc819dcef88a7f5b348b75552aaf"
+  integrity sha512-UvpEebdFKJsjFBKeUOvvYHOEFsUcjZnyU1qNirtDajwjzTJlszXtv+Mq8F6w5mJsznpI9x7ZMNzAqydVxMG5hA==
   dependencies:
     "@langchain/openai" ">=0.2.0 <0.6.0"
     binary-extensions "^2.2.0"
@@ -430,10 +430,10 @@
     zod "^3.22.3"
     zod-to-json-schema "^3.22.5"
 
-"@langchain/core@^0.3.43":
-  version "0.3.43"
-  resolved "https://registry.yarnpkg.com/@langchain/core/-/core-0.3.43.tgz#e23adfdc4b806c92002f9f56d6590c4a43eb4418"
-  integrity sha512-DwiSUwmZqcuOn7j8SFdeOH1nvaUqG7q8qn3LhobdQYEg5PmjLgd2yLr2KzuT/YWMBfjkOR+Di5K6HEdFmouTxg==
+"@langchain/core@^0.3.44":
+  version "0.3.44"
+  resolved "https://registry.yarnpkg.com/@langchain/core/-/core-0.3.44.tgz#b449646ab31d0cefd3e9fa3ec02a0fb6a78f7ef6"
+  integrity sha512-3BsSFf7STvPPZyl2kMANgtVnCUvDdyP4k+koP+nY2Tczd5V+RFkuazIn/JOj/xxy/neZjr4PxFU4BFyF1aKXOA==
   dependencies:
     "@cfworker/json-schema" "^4.0.2"
     ansi-styles "^5.0.0"
@@ -910,7 +910,7 @@
     "@types/node" "*"
     form-data "^4.0.0"
 
-"@types/node@*", "@types/node@^22.14.0":
+"@types/node@*":
   version "22.14.0"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-22.14.0.tgz#d3bfa3936fef0dbacd79ea3eb17d521c628bb47e"
   integrity sha512-Kmpl+z84ILoG+3T/zQFyAJsU6EPTmOCj8/2+83fSN6djd6I4o7uOuGIH6vq3PrjY5BGitSbFuMN18j3iknubbA==
@@ -923,6 +923,13 @@
   integrity sha512-fifKayi175wLyKyc5qUfyENhQ1dCNI1UNjp653d8kuYcPQN5JhX3dGuP/XmvPTg/xRBn1VTLpbmi+H/Mr7tLfQ==
   dependencies:
     undici-types "~5.26.4"
+
+"@types/node@^22.14.1":
+  version "22.14.1"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.14.1.tgz#53b54585cec81c21eee3697521e31312d6ca1e6f"
+  integrity sha512-u0HuPQwe/dHrItgHHpmw3N2fYCR6x4ivMNbPHRkBVP4CvN+kiRrKHWk3i8tXiO/joPwXLMYvF9TTF0eqgHIuOw==
+  dependencies:
+    undici-types "~6.21.0"
 
 "@types/retry@0.12.0":
   version "0.12.0"
