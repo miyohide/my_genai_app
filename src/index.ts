@@ -5,8 +5,7 @@ export const main = async (): Promise<void> => {
     const model = new BedrockChat({
         region: 'ap-northeast-1',
         // クロスリージョンでは別のIDをつける
-        // 2025年4月にて、langchian-awsにて未対応
-        // see. https://github.com/langchain-ai/langchain-aws/pull/278
+        // 2025年4月にて、langchianjsにて未対応のように見える
         model: 'apac.amazon.nova-lite-v1:0',
     });
 
